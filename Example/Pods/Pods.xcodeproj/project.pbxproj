@@ -9,26 +9,15 @@
 /* Begin PBXBuildFile section */
 		192EFB270318B1735BE807E5EDF874C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		275D9EC422EF0809970936D5DE9C8835 /* Pods-LoadingProgressHUD_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 058FB402829A63754AE046C8C1C6A8A6 /* Pods-LoadingProgressHUD_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		27D00BAD8CCC6E64787EEAA2EF747FF8 /* angle-mask.png in Sources */ = {isa = PBXBuildFile; fileRef = 2A0A801156719398991D3FD098741533 /* angle-mask.png */; };
-		2DF83D85E97AB438F42899208ECEC800 /* angle-mask@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 6DE0E6CB597F205A69C414A16A24F9E4 /* angle-mask@3x.png */; };
 		5814F8B1C38557325523F3AEB737D7B2 /* LoadingProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0917A65F641D2A8AFAA22B94A3E5D6AD /* LoadingProgressHUD.swift */; };
 		649D131B197686AD36C5C92DAC5DB1B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		6570D15A8D83F81B14A05BC8E1509C76 /* error@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 2EEC9C63F06E06B8322FC56A7F77E139 /* error@3x.png */; };
-		6EBF0366DF70FD915318BCCAF8249972 /* success@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = F524D479818245BEC9C67EC8187A05AA /* success@2x.png */; };
-		700A84C5A9FB9778616B17578A9101D4 /* angle-mask@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 11D3D628149979B9A315DCE8A369A81C /* angle-mask@2x.png */; };
 		7141403DFBFD50F050603B1349C9F7EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		7C0D2E58803E5A1911F3ABEC041C03E2 /* RadialGradientLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A60D2F4A3E056D555E689C54A1CCF11 /* RadialGradientLayer.swift */; };
-		85B05357EBBCD3CB1A9D260CBB9BD778 /* info.png in Sources */ = {isa = PBXBuildFile; fileRef = 88B26ED62510CB17E4326CAE6F9A2BBF /* info.png */; };
-		9082DFB0AC48A6F83D984DE44C787732 /* info@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 66D95B9735584C776E3082A5B3DCFE36 /* info@2x.png */; };
-		93997E9F52D524781D275A941BF37DF3 /* success.png in Sources */ = {isa = PBXBuildFile; fileRef = 751127F31D2D5FC8341AF95B3BE9BE0D /* success.png */; };
-		AE3B74E4966B723845B0F64C184866FA /* error.png in Sources */ = {isa = PBXBuildFile; fileRef = 1ECB5802B416B43B797B7C1CA1CC0950 /* error.png */; };
+		A9B84D8022E34FC90005E9AE /* LoadingProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A9B84D7F22E34FC90005E9AE /* LoadingProgressHUD.bundle */; };
 		AFD076EA20109254E80CA2FD968167FD /* LoadingProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8104F72E7E06DE1A524D373F66C9E8 /* LoadingProgressHUD-dummy.m */; };
 		B02C834F30A1D7BFDE562E9BD688ED47 /* Pods-LoadingProgressHUD_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B7EEA4520370BD1BA1779334D4142D63 /* Pods-LoadingProgressHUD_Tests-dummy.m */; };
 		BBE00D96B04D978D74841C25C62F95F6 /* Pods-LoadingProgressHUD_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E9F85DE91291306EB0E52DB9BC9CE4 /* Pods-LoadingProgressHUD_Example-dummy.m */; };
-		C4E73365185248C056FEDF971626CB0E /* success@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 32607AF523DFCB8736D383C527040FD2 /* success@3x.png */; };
-		CE83C11ACBCC4EB89D69BDB03B4AC3EB /* error@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 4B77B19B8BF174B579770DF31F978511 /* error@2x.png */; };
 		D321ADC144FABE72A8272A628FDABCDD /* Pods-LoadingProgressHUD_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4112FC0BD2B0054EE862E6FE093A034 /* Pods-LoadingProgressHUD_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DC6F537FD0300E21B8DF8B5E839ECE2E /* info@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = ADF6311F19F81C5E2B14870C596EC621 /* info@3x.png */; };
 		F0D43404ECDF6F0A2124CF9A6275D10F /* ProgressAnimatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6F9BC3E52026AF060BCAD3A8CB5B47 /* ProgressAnimatedView.swift */; };
 		F24305FCA333142CB699EBF136E5044F /* LoadingProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B5162BF957D7D97931106BC8EE0FE74 /* LoadingProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FA55A31AC8D79507AFBD329CC0ECC907 /* IndefiniteAnimatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9596939677FE5C7571B9750D6324FB1F /* IndefiniteAnimatedView.swift */; };
@@ -56,37 +45,27 @@
 		058FB402829A63754AE046C8C1C6A8A6 /* Pods-LoadingProgressHUD_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LoadingProgressHUD_Example-umbrella.h"; sourceTree = "<group>"; };
 		08A62577BEC42DB707C4D48C09D83E8C /* Pods-LoadingProgressHUD_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LoadingProgressHUD_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		0917A65F641D2A8AFAA22B94A3E5D6AD /* LoadingProgressHUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoadingProgressHUD.swift; path = LoadingProgressHUD/Classes/LoadingProgressHUD.swift; sourceTree = "<group>"; };
-		11D3D628149979B9A315DCE8A369A81C /* angle-mask@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "angle-mask@2x.png"; sourceTree = "<group>"; };
-		1ECB5802B416B43B797B7C1CA1CC0950 /* error.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = error.png; sourceTree = "<group>"; };
-		23D5596D6A8ABB3C0FA7745261AF27CA /* Pods_LoadingProgressHUD_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LoadingProgressHUD_Example.framework; path = "Pods-LoadingProgressHUD_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A0A801156719398991D3FD098741533 /* angle-mask.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "angle-mask.png"; sourceTree = "<group>"; };
+		23D5596D6A8ABB3C0FA7745261AF27CA /* Pods_LoadingProgressHUD_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoadingProgressHUD_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A2688985935C7F291702F3923209459 /* LoadingProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LoadingProgressHUD-prefix.pch"; sourceTree = "<group>"; };
 		2B5162BF957D7D97931106BC8EE0FE74 /* LoadingProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LoadingProgressHUD-umbrella.h"; sourceTree = "<group>"; };
-		2EEC9C63F06E06B8322FC56A7F77E139 /* error@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "error@3x.png"; sourceTree = "<group>"; };
-		32607AF523DFCB8736D383C527040FD2 /* success@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "success@3x.png"; sourceTree = "<group>"; };
 		388D4E2873F01F98BC4B2F57003BBC2F /* Pods-LoadingProgressHUD_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LoadingProgressHUD_Example-frameworks.sh"; sourceTree = "<group>"; };
 		3A60D2F4A3E056D555E689C54A1CCF11 /* RadialGradientLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RadialGradientLayer.swift; path = LoadingProgressHUD/Classes/RadialGradientLayer.swift; sourceTree = "<group>"; };
-		4368D6A05B78A1701C5174D496C7DA03 /* LoadingProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LoadingProgressHUD.framework; path = LoadingProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4368D6A05B78A1701C5174D496C7DA03 /* LoadingProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LoadingProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		44F97981E1D92E7DDD318EF35E615AEB /* Pods-LoadingProgressHUD_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoadingProgressHUD_Example.release.xcconfig"; sourceTree = "<group>"; };
-		4B77B19B8BF174B579770DF31F978511 /* error@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "error@2x.png"; sourceTree = "<group>"; };
 		4E8104F72E7E06DE1A524D373F66C9E8 /* LoadingProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LoadingProgressHUD-dummy.m"; sourceTree = "<group>"; };
-		5C4A7DAA755B8C46C72FEC76F9C9B98C /* Pods_LoadingProgressHUD_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LoadingProgressHUD_Tests.framework; path = "Pods-LoadingProgressHUD_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C4A7DAA755B8C46C72FEC76F9C9B98C /* Pods_LoadingProgressHUD_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoadingProgressHUD_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FF3538D7E8A435B2B62E42478540FBF /* LoadingProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LoadingProgressHUD.modulemap; sourceTree = "<group>"; };
 		61764E322CCCF7839FF7B0BC340ACA3B /* Pods-LoadingProgressHUD_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LoadingProgressHUD_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		658EF1BDFFDA2910E29A14B29F93FFAA /* Pods-LoadingProgressHUD_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoadingProgressHUD_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		66D95B9735584C776E3082A5B3DCFE36 /* info@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "info@2x.png"; sourceTree = "<group>"; };
 		6A1B1561A8AE9C9C1CC656C220CA8399 /* Pods-LoadingProgressHUD_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LoadingProgressHUD_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6DBF3B2C1A98F977397D60D6F908291F /* Pods-LoadingProgressHUD_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LoadingProgressHUD_Tests.modulemap"; sourceTree = "<group>"; };
-		6DE0E6CB597F205A69C414A16A24F9E4 /* angle-mask@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "angle-mask@3x.png"; sourceTree = "<group>"; };
 		6E6F9BC3E52026AF060BCAD3A8CB5B47 /* ProgressAnimatedView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProgressAnimatedView.swift; path = LoadingProgressHUD/Classes/ProgressAnimatedView.swift; sourceTree = "<group>"; };
 		72404E112A56120D298A750BBEF06147 /* Pods-LoadingProgressHUD_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoadingProgressHUD_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		751127F31D2D5FC8341AF95B3BE9BE0D /* success.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = success.png; sourceTree = "<group>"; };
-		88B26ED62510CB17E4326CAE6F9A2BBF /* info.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = info.png; sourceTree = "<group>"; };
 		88E9F85DE91291306EB0E52DB9BC9CE4 /* Pods-LoadingProgressHUD_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LoadingProgressHUD_Example-dummy.m"; sourceTree = "<group>"; };
 		9596939677FE5C7571B9750D6324FB1F /* IndefiniteAnimatedView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IndefiniteAnimatedView.swift; path = LoadingProgressHUD/Classes/IndefiniteAnimatedView.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A85E84B93CE96E183D03479D31D67256 /* LoadingProgressHUD.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LoadingProgressHUD.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		ADF6311F19F81C5E2B14870C596EC621 /* info@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "info@3x.png"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A85E84B93CE96E183D03479D31D67256 /* LoadingProgressHUD.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LoadingProgressHUD.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A9B84D7F22E34FC90005E9AE /* LoadingProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = LoadingProgressHUD.bundle; path = LoadingProgressHUD/Classes/LoadingProgressHUD.bundle; sourceTree = "<group>"; };
 		B4112FC0BD2B0054EE862E6FE093A034 /* Pods-LoadingProgressHUD_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LoadingProgressHUD_Tests-umbrella.h"; sourceTree = "<group>"; };
 		B5E9C2AB7A5A8F51722B8390B18CAA59 /* LoadingProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LoadingProgressHUD-Info.plist"; sourceTree = "<group>"; };
 		B7EEA4520370BD1BA1779334D4142D63 /* Pods-LoadingProgressHUD_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LoadingProgressHUD_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -96,9 +75,8 @@
 		E445AE2CD1374C6562B85BAA98EE9B96 /* Pods-LoadingProgressHUD_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LoadingProgressHUD_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		E5F28CF85D8FE411A870C866849B5089 /* LoadingProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LoadingProgressHUD.xcconfig; sourceTree = "<group>"; };
 		E8FA8EB86DCAF1C1CA1776FC22825A37 /* Pods-LoadingProgressHUD_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LoadingProgressHUD_Tests-Info.plist"; sourceTree = "<group>"; };
-		F0556F00C521D135B5DE0139B2148A56 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		F281EA7185B39E9F565B25A76453F1FA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		F524D479818245BEC9C67EC8187A05AA /* success@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "success@2x.png"; sourceTree = "<group>"; };
+		F0556F00C521D135B5DE0139B2148A56 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F281EA7185B39E9F565B25A76453F1FA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,26 +150,6 @@
 			path = "Target Support Files/Pods-LoadingProgressHUD_Example";
 			sourceTree = "<group>";
 		};
-		3C83C46E4A301C66A6D1263133C40169 /* LoadingProgressHUD.bundle */ = {
-			isa = PBXGroup;
-			children = (
-				2A0A801156719398991D3FD098741533 /* angle-mask.png */,
-				11D3D628149979B9A315DCE8A369A81C /* angle-mask@2x.png */,
-				6DE0E6CB597F205A69C414A16A24F9E4 /* angle-mask@3x.png */,
-				1ECB5802B416B43B797B7C1CA1CC0950 /* error.png */,
-				4B77B19B8BF174B579770DF31F978511 /* error@2x.png */,
-				2EEC9C63F06E06B8322FC56A7F77E139 /* error@3x.png */,
-				88B26ED62510CB17E4326CAE6F9A2BBF /* info.png */,
-				66D95B9735584C776E3082A5B3DCFE36 /* info@2x.png */,
-				ADF6311F19F81C5E2B14870C596EC621 /* info@3x.png */,
-				751127F31D2D5FC8341AF95B3BE9BE0D /* success.png */,
-				F524D479818245BEC9C67EC8187A05AA /* success@2x.png */,
-				32607AF523DFCB8736D383C527040FD2 /* success@3x.png */,
-			);
-			name = LoadingProgressHUD.bundle;
-			path = LoadingProgressHUD/Classes/LoadingProgressHUD.bundle;
-			sourceTree = "<group>";
-		};
 		6EB3A47769221CD24D4D494BB80E9CFF /* Pod */ = {
 			isa = PBXGroup;
 			children = (
@@ -240,11 +198,11 @@
 		DD79271101740E4C79929E8BFB8CE030 /* LoadingProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
+				A9B84D7F22E34FC90005E9AE /* LoadingProgressHUD.bundle */,
 				9596939677FE5C7571B9750D6324FB1F /* IndefiniteAnimatedView.swift */,
 				0917A65F641D2A8AFAA22B94A3E5D6AD /* LoadingProgressHUD.swift */,
 				6E6F9BC3E52026AF060BCAD3A8CB5B47 /* ProgressAnimatedView.swift */,
 				3A60D2F4A3E056D555E689C54A1CCF11 /* RadialGradientLayer.swift */,
-				3C83C46E4A301C66A6D1263133C40169 /* LoadingProgressHUD.bundle */,
 				6EB3A47769221CD24D4D494BB80E9CFF /* Pod */,
 				FF6B17A96F5C14D32D4672C40E3414C0 /* Support Files */,
 			);
@@ -401,6 +359,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9B84D8022E34FC90005E9AE /* LoadingProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,23 +385,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27D00BAD8CCC6E64787EEAA2EF747FF8 /* angle-mask.png in Sources */,
-				700A84C5A9FB9778616B17578A9101D4 /* angle-mask@2x.png in Sources */,
-				2DF83D85E97AB438F42899208ECEC800 /* angle-mask@3x.png in Sources */,
-				AE3B74E4966B723845B0F64C184866FA /* error.png in Sources */,
-				CE83C11ACBCC4EB89D69BDB03B4AC3EB /* error@2x.png in Sources */,
-				6570D15A8D83F81B14A05BC8E1509C76 /* error@3x.png in Sources */,
 				FA55A31AC8D79507AFBD329CC0ECC907 /* IndefiniteAnimatedView.swift in Sources */,
-				85B05357EBBCD3CB1A9D260CBB9BD778 /* info.png in Sources */,
-				9082DFB0AC48A6F83D984DE44C787732 /* info@2x.png in Sources */,
-				DC6F537FD0300E21B8DF8B5E839ECE2E /* info@3x.png in Sources */,
 				AFD076EA20109254E80CA2FD968167FD /* LoadingProgressHUD-dummy.m in Sources */,
 				5814F8B1C38557325523F3AEB737D7B2 /* LoadingProgressHUD.swift in Sources */,
 				F0D43404ECDF6F0A2124CF9A6275D10F /* ProgressAnimatedView.swift in Sources */,
 				7C0D2E58803E5A1911F3ABEC041C03E2 /* RadialGradientLayer.swift in Sources */,
-				93997E9F52D524781D275A941BF37DF3 /* success.png in Sources */,
-				6EBF0366DF70FD915318BCCAF8249972 /* success@2x.png in Sources */,
-				C4E73365185248C056FEDF971626CB0E /* success@3x.png in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -786,8 +733,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
