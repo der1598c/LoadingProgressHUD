@@ -8,9 +8,9 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LoadingProgressHUD'
-  s.version          = '0.1.1'
+  s.version          = '0.2.0'
   s.summary          = 'A clean and lightweight loading progress HUD for iOS and tvOS app, written in Swift.'
-  s.description      = 'A clean and lightweight loading progress HUD for iOS and tvOS app based on SVProgressHUD, written in Swift.'
+  s.description      = 'Add a property (frontTextColor) to the HUD to set the font color (previously included in the foregroundColor).'
   s.swift_version    = "4.2"
   s.homepage         = 'https://github.com/der1598c/LoadingProgressHUD'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
