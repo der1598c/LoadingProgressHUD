@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import QuartzCore
 
 public enum NotificationName : String {
     case LoadingProgressHUDDidReceiveTouchEvent, LoadingProgressHUDDidTouchDownInside, LoadingProgressHUDWillDisappear, LoadingProgressHUDDidDisappear, LoadingProgressHUDWillAppear, LoadingProgressHUDDidAppear, LoadingProgressHUDStatusUserInfoKey
@@ -34,27 +33,18 @@ public enum LoadingProgressHUDAnimationType : Int {
     case native
 }
 
-private let LoadingProgressHUDParallaxDepthPoints: CGFloat = 10.0
-private let LoadingProgressHUDUndefinedProgress: CGFloat = -1
+private let LoadingProgressHUDParallaxDepthPoints : CGFloat = 10.0
+private let LoadingProgressHUDUndefinedProgress : CGFloat = -1
 private let LoadingProgressHUDDefaultAnimationDuration: CGFloat = 0.15
 private let LoadingProgressHUDVerticalSpacing: CGFloat = 12.0
 private let LoadingProgressHUDHorizontalSpacing: CGFloat = 12.0
 private let LoadingProgressHUDLabelSpacing: CGFloat = 8.0
 
-class LoadingProgressHUD: UIView {
-
+public class LoadingProgressHUD : UIView {
+    
     static var isNotAppExtension = true
     
-//    let LoadingProgressHUDDidReceiveTouchEventNotification:String = "LoadingProgressHUDDidReceiveTouchEventNotification"
-//    let LoadingProgressHUDDidTouchDownInsideNotification:String = "LoadingProgressHUDDidTouchDownInsideNotification"
-//    let LoadingProgressHUDWillDisappearNotification:String = "LoadingProgressHUDWillDisappearNotification"
-//    let LoadingProgressHUDDidDisappearNotification:String = "LoadingProgressHUDDidDisappearNotification"
-//    let LoadingProgressHUDWillAppearNotification:String = "LoadingProgressHUDWillAppearNotification"
-//    let LoadingProgressHUDDidAppearNotification:String = "LoadingProgressHUDDidAppearNotification"
-//
-//    let LoadingProgressHUDStatusUserInfoKey:String = "LoadingProgressHUDStatusUserInfoKey"
-    
-    private var defaultStyle = LoadingProgressHUDStyle.light
+    private var  defaultStyle = LoadingProgressHUDStyle.light
     private var defaultMaskType = LoadingProgressHUDMaskType.none
     private var defaultAnimationType = LoadingProgressHUDAnimationType.flat
     private var containerView: UIView?
@@ -80,7 +70,6 @@ class LoadingProgressHUD: UIView {
     private var fadeOutAnimationDuration: TimeInterval = TimeInterval(LoadingProgressHUDDefaultAnimationDuration)
     private var maxSupportedWindowLevel: UIWindow.Level = UIWindow.Level.normal
     private var hapticsEnabled = false
-    
     private var graceTimer: Timer?
     private var fadeOutTimer: Timer?
     private var controlView: UIControl?
@@ -97,12 +86,6 @@ class LoadingProgressHUD: UIView {
     private var visibleKeyboardHeight: CGFloat = 0.0
     private var frontWindow: UIWindow?
     private var hudBackgroundColor : UIColor?
-    
-//    #if os(iOS)
-//        if #available(iOS 9.0, *) {
-//    var hapticGenerator: UINotificationFeedbackGenerator?
-//        }
-//    #endif
     #if os(iOS)
     @available(iOS 10.0, *)
     private var hapticGenerator: UINotificationFeedbackGenerator? {
@@ -115,7 +98,6 @@ class LoadingProgressHUD: UIView {
         }
     }
     #endif
-    
     private override init(frame: CGRect) {
         super.init(frame: frame)
         infoImage = loadImageBundle(named: "info")!
@@ -136,9 +118,6 @@ class LoadingProgressHUD: UIView {
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
-    
-//    private var isInitializing = false
-    
     
     private func getIndefiniteAnimatedView() -> IndefiniteAnimatedView {
         if defaultAnimationType == .flat {
@@ -578,7 +557,7 @@ class LoadingProgressHUD: UIView {
                     // Remove observer <=> we do not have to handle orientation changes etc.
                     NotificationCenter.default.removeObserver(strongSelf)
                     // Post notification to inform user
-                    // LoadingProgressHUDDidDisappearNotification
+                    //LoadingProgressHUDDidDisappearNotification
                     NotificationCenter.default.post(name: NotificationName.LoadingProgressHUDDidDisappear.getNotificationName(), object: strongSelf, userInfo: strongSelf.notificationUserInfo())
                     
                     // Tell the rootViewController to update the StatusBar appearance

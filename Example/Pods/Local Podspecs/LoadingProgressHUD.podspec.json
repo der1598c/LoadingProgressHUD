@@ -1,8 +1,9 @@
 {
   "name": "LoadingProgressHUD",
   "version": "0.1.0",
-  "summary": "A short description of LoadingProgressHUD.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "A clean and lightweight loading progress HUD for iOS and tvOS app, written in Swift.",
+  "description": "A clean and lightweight loading progress HUD for iOS and tvOS app based on SVProgressHUD, written in Swift.",
+  "swift_version": "4.2",
   "homepage": "https://github.com/der1598c/LoadingProgressHUD",
   "license": {
     "type": "MIT",
@@ -16,7 +17,10 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "8.0",
+    "tvos": "9.0"
   },
-  "source_files": "LoadingProgressHUD/Classes/**/*"
+  "source_files": "LoadingProgressHUD/Classes/**/*",
+  "frameworks": "QuartzCore",
+  "requires_arc": true
 }
