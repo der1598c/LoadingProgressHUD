@@ -1,9 +1,16 @@
 # LoadingProgressHUD
 
-[![CI Status](https://img.shields.io/travis/der1598c/LoadingProgressHUD.svg?style=flat)](https://travis-ci.org/der1598c/LoadingProgressHUD)
 [![Version](https://img.shields.io/cocoapods/v/LoadingProgressHUD.svg?style=flat)](https://cocoapods.org/pods/LoadingProgressHUD)
 [![License](https://img.shields.io/cocoapods/l/LoadingProgressHUD.svg?style=flat)](https://cocoapods.org/pods/LoadingProgressHUD)
 [![Platform](https://img.shields.io/cocoapods/p/LoadingProgressHUD.svg?style=flat)](https://cocoapods.org/pods/LoadingProgressHUD)
+
+### Preview
+
+Add a property (frontTextColor) to the HUD to set the font color (previously included in the foregroundColor).
+
+![](https://github.com/der1598c/LoadingProgressHUD/blob/master/Intro-material/func03.gif)
+
+![](https://github.com/der1598c/LoadingProgressHUD/blob/master/Intro-material/each_func.gif)
 
 ## Example
 
@@ -22,7 +29,7 @@ pod 'LoadingProgressHUD'
 
 ## Author
 
-der1598c, leyee.h@gmail.com
+der1598c, der1598c@gmail.com
 
 ## License
 
