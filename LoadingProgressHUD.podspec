@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LoadingProgressHUD'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A clean and lightweight loading progress HUD for iOS and tvOS app, written in Swift.'
   s.description      = 'A clean and lightweight loading progress HUD for iOS and tvOS app based on SVProgressHUD, written in Swift.'
   s.swift_version    = "4.2"
