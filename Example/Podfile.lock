@@ -1,0 +1,16 @@
+PODS:
+  - LoadingProgressHUD (0.1.0)
+
+DEPENDENCIES:
+  - LoadingProgressHUD (from `../`)
+
+EXTERNAL SOURCES:
+  LoadingProgressHUD:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LoadingProgressHUD: c307ee4caffef34b5e341334a1f71e16ba8d7837
+
+PODFILE CHECKSUM: 5236815c0b42f41b1091a0b67544176b52f68b75
+
+COCOAPODS: 1.6.1

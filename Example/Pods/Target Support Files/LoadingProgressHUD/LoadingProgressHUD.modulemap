@@ -1,0 +1,6 @@
+framework module LoadingProgressHUD {
+  umbrella header "LoadingProgressHUD-umbrella.h"
+
+  export *
+  module * { export * }
+}
