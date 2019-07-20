@@ -1,5 +1,6 @@
 # LoadingProgressHUD
 
+[![CocoaPods compatible](https://img.shields.io/badge/CocoaPods-compatible-green.svg?style=flat)](https://cocoapods.org)
 [![Version](https://img.shields.io/cocoapods/v/LoadingProgressHUD.svg?style=flat)](https://cocoapods.org/pods/LoadingProgressHUD)
 [![License](https://img.shields.io/cocoapods/l/LoadingProgressHUD.svg?style=flat)](https://cocoapods.org/pods/LoadingProgressHUD)
 [![Platform](https://img.shields.io/cocoapods/p/LoadingProgressHUD.svg?style=flat)](https://cocoapods.org/pods/LoadingProgressHUD)
@@ -16,9 +17,9 @@ Add a property (frontTextColor) to the HUD to set the font color (previously inc
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
-
 ## Installation
+
+### CocoaPods
 
 LoadingProgressHUD is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
@@ -26,6 +27,10 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'LoadingProgressHUD'
 ```
+
+### Carthage
+
+Currently not available.
 
 ## Author
 
