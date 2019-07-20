@@ -55,6 +55,7 @@ public class LoadingProgressHUD : UIView {
     private var cornerRadius: CGFloat = 14.0
     private var font = UIFont.preferredFont(forTextStyle: .subheadline)
     private var foregroundColor : UIColor?
+    private var frontTextColor : UIColor?
     private var backgroundLayerColor = UIColor.init(white: 0, alpha: 0.4)
     private var imageViewSize: CGSize = CGSize.init(width: 28, height: 28)
     private var shouldTintImages : Bool = true
@@ -135,7 +136,7 @@ public class LoadingProgressHUD : UIView {
             indefiniteAnimatedView?.setIndefinite(radius: radius)
         } else {
             indefiniteAnimatedView?.removeAnimationLayer()
-            indefiniteAnimatedView?.setActivityIndicator(color: foreGroundColorForStyle())
+            indefiniteAnimatedView?.setActivityIndicator(color: frontTextColorForStyle())
             indefiniteAnimatedView?.startAnimation()
         }
         indefiniteAnimatedView?.sizeToFit()
@@ -784,7 +785,7 @@ public class LoadingProgressHUD : UIView {
         if statusLabel?.superview == nil && statusLabel != nil {
             getHudView().contentView.addSubview(statusLabel!)
         }
-        statusLabel?.textColor = foreGroundColorForStyle()
+        statusLabel?.textColor = frontTextColorForStyle()
         statusLabel?.font = font
         statusLabel?.alpha = 1.0
         statusLabel?.isHidden = false
@@ -978,6 +979,10 @@ extension LoadingProgressHUD {
     }
     // default is [UIColor blackColor], only used for ProgressHUDStyleCustom
     
+    public class func set(frontTextColor color: UIColor) {
+        sharedView.frontTextColor = color
+    }
+    
     public class func set(backgroundColor color: UIColor) {
         sharedView.backgroundColor = color
         sharedView.defaultStyle = .custom
@@ -1160,6 +1165,19 @@ extension LoadingProgressHUD {
 extension LoadingProgressHUD {
     private func foreGroundColorForStyle() -> UIColor {
         guard let color = foregroundColor else {
+            if defaultStyle == .light {
+                return .black
+            } else if defaultStyle == .dark {
+                return .white
+            } else {
+                return .black
+            }
+        }
+        return color
+    }
+    
+    private func frontTextColorForStyle() -> UIColor {
+        guard let color = frontTextColor else {
             if defaultStyle == .light {
                 return .black
             } else if defaultStyle == .dark {

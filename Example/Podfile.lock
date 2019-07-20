@@ -1,5 +1,5 @@
 PODS:
-  - LoadingProgressHUD (0.1.0)
+  - LoadingProgressHUD (0.1.1)
 
 DEPENDENCIES:
   - LoadingProgressHUD (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LoadingProgressHUD: fbfa6ad2d04f8b65e91aff99b6bcb884a4365140
+  LoadingProgressHUD: 808ecc26ab89fd3a446217b90d6d5d5fa3cb3524
 
 PODFILE CHECKSUM: 9d6a2c6ff6b967c822fe2969f5a2daca199fa76f
 

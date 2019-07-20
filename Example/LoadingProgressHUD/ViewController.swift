@@ -28,6 +28,13 @@ class ViewController : UIViewController {
         activityCount = 0
         //        LoadingProgressHUD.setHUD(backgroundColor: UIColor.blue)
         addObserver(self, forKeyPath: "activityCount", options: .new, context: nil)
+        
+        //test
+        LoadingProgressHUD.set(cornerRadius: 5)
+        LoadingProgressHUD.set(borderWidth: 2)
+        LoadingProgressHUD.set(borderColor: UIColor.black)
+        LoadingProgressHUD.set(foregroundColor: UIColor.darkGray)
+        LoadingProgressHUD.set(frontTextColor: UIColor.lightGray)
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -147,8 +154,8 @@ class ViewController : UIViewController {
     }
     
     @objc func increaseProgress() {
-        progress += 0.1
-        LoadingProgressHUD.show(progress: progress, status: "Here is a very large text. Hello world. It is the introduction of Programming")
+        progress += 0.05
+        LoadingProgressHUD.show(progress: progress, status: "\(Int(progress*100))%\nHello world. It is the introduction of Programming")
         if progress < 1.0 {
             perform(#selector(increaseProgress), with: nil, afterDelay: 0.1)
         } else {
